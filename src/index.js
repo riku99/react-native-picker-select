@@ -402,7 +402,7 @@ export default class RNPickerSelect extends PureComponent {
                         Platform.OS === 'ios' ? style.inputIOS : style.inputAndroid,
                         this.getPlaceholderStyle(),
                     ]}
-                    value={selectedItem.inputLabel ? selectedItem.inputLabel : selectedItem.label}
+                    value="検索範囲を変更"
                     ref={this.setInputRef}
                     editable={false}
                     {...textInputProps}
